@@ -1,0 +1,38 @@
+---
+// src/components/Card.astro 的全宽美化版
+interface Props {
+  title: string;
+  description: string;
+  href: string;
+  tag?: string;
+}
+
+const { title, description, href, tag } = Astro.props;
+---
+
+<a
+  href={href}
+  class="block p-6 rounded-2xl bg-gray-900 border border-gray-800 hover:border-indigo-500/50 hover:bg-gray-800/40 transition-all duration-300 group hover:-translate-y-0.5 shadow-xl w-full"
+>
+  <div
+    class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3"
+  >
+    <h3
+      class="text-xl font-bold text-gray-200 group-hover:text-indigo-400 transition-colors flex items-center gap-2"
+    >
+      {title}
+      <span
+        class="inline-block transform group-hover:translate-x-1 transition-transform duration-300"
+        >→</span
+      >
+    </h3>
+    {
+      tag && (
+        <span class="text-xs px-2.5 py-1 rounded-md bg-indigo-500/10 text-indigo-400 font-semibold self-start sm:self-auto">
+          {tag}
+        </span>
+      )
+    }
+  </div>
+  <p class="text-sm text-gray-400 leading-relaxed max-w-3xl">{description}</p>
+</a>
