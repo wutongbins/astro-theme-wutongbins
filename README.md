@@ -1,5 +1,4 @@
-# 🌱 Astro Theme Wutong (梧桐主题)
-
+# 🌱 Astro Theme Wutongbins
 A minimalist, high-performance, and content-focused digital garden & developer portfolio theme. Fully optimized for the bleeding-edge **Astro v6** and **Tailwind CSS v4**.
 
 一款专为独立开发者、极客量身定制的现代化数字花园与个人作品集主题。基于最新的 **Astro v6** 与 **Tailwind CSS v4** 架构倾力打造。
@@ -21,10 +20,15 @@ A minimalist, high-performance, and content-focused digital garden & developer p
 ### 1. Clone & Install
 ```bash
 # 克隆本项目
-git clone [https://github.com/your-username/astro-theme-wutong.git](https://github.com/your-username/astro-theme-wutong.git)
+git clone [https://github.com/your-username/astro-theme-wutongbins.git](https://github.com/your-username/astro-theme-wutongbins.git)
 
 # 进入目录
-cd astro-theme-wutong
+cd astro-theme-wutongbins
 
 # 安装依赖
 npm install
+
+# 启动本地开发服务器
+npm run dev
+
+Open http://localhost:4321 in your browser to check the magic! 🌟
