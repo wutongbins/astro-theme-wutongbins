@@ -1,6 +1,6 @@
 ---
 title: "从零搭建 Astro 独立博客的奇妙之旅"
-description: "记录我如何使用 Astro 和 Tailwind CSS 从零构建属于自己的数字花园，体验全栈工程化的高效。"
+description: "记录我如何使用 Astro 和 Tailwind CSS 从零构建属于自己主题，体验全栈工程化的高效。"
 pubDate: 2026-05-17
 tags: ["Astro", "Tailwind", "前端"]
 ---
